@@ -75,6 +75,7 @@
   </div></div>
 <p dir="auto">And save it.</p>
 <p dir="auto">Now, access <a href="http://www.xsslabelgg.com/profile/alice" rel="nofollow">http://www.xsslabelgg.com/profile/alice</a> from either the server or the attacker, an alert prompts:</p>
+<p>Screenshoot in cross-site-scripting Folder</p>
 <h1 dir="auto"><a id="user-content-task-2" class="anchor" aria-hidden="true" href="#task-2"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Task 2</h1>
 <p dir="auto">Edit the <code>Brief description</code> module and save:</p>
 <div class="highlight highlight-text-html-basic position-relative overflow-auto"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span>
@@ -94,7 +95,9 @@
   </div></div>
 <p dir="auto">When accessing the profile page, it will show the cookie of the log-in user.</p>
 <p dir="auto">When Boby opens the page, it will be</p>
+<p>Screenshoot in cross-site-scripting Folder</p>
 <p dir="auto">For Alice herself:</p>
+<p>Screenshoot in cross-site-scripting Folder</p>
 <h1 dir="auto"><a id="user-content-task-3" class="anchor" aria-hidden="true" href="#task-3"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Task 3</h1>
 <p dir="auto">Edit the <code>Brief description</code> as:</p>
 <div class="highlight highlight-text-html-basic position-relative overflow-auto"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span>
@@ -131,6 +134,7 @@
     </clipboard-copy>
   </div></div>
 <p dir="auto">Once visiting the profile page ( <a href="http://www.xsslabelgg.com/profile/alice" rel="nofollow">http://www.xsslabelgg.com/profile/alice</a>) from VM <code>10.0.2.4</code>, then it will appear on the attacker:</p>
+<p>Screenshoot in cross-site-scripting Folder</p>
 <h1 dir="auto"><a id="user-content-task-4" class="anchor" aria-hidden="true" href="#task-4"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Task 4</h1>
 <p dir="auto">Try to log in as <code>alice</code> and add <code>samy</code> as a friend, during the process, <code>network</code> tool captures the request:</p>
 <p dir="auto">HTTP header:</p>
@@ -298,6 +302,7 @@ Upgrade-Insecure-Requests: 1
     </clipboard-copy>
   </div></div>
 <p dir="auto">Then edit Samy's profile and figure out his <code>guid</code> as 47</p>
+<p>Screenshoot in cross-site-scripting Folder</p>
 <p dir="auto">Now we want to modify the <code>about me</code> module in the profile of someone as <code>"modified by Samy"</code> if he/she visits Samy's profile page. Save the code below as Samy's profile:</p>
 <div class="highlight highlight-text-html-basic position-relative overflow-auto"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">type</span>="<span class="pl-s">text/javascript</span>"<span class="pl-kos">&gt;</span>
   <span class="pl-smi">window</span><span class="pl-kos">.</span><span class="pl-en">onload</span> <span class="pl-c1">=</span> <span class="pl-k">function</span> <span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
@@ -365,6 +370,7 @@ Upgrade-Insecure-Requests: 1
     </clipboard-copy>
   </div></div>
 <p dir="auto">Then, visit Samy's profile using Boby's account. Boby's profile is modified at once:</p>
+<p>Screenshoot in cross-site-scripting Folder</p>
 <h1 dir="auto"><a id="user-content-task-6" class="anchor" aria-hidden="true" href="#task-6"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Task 6</h1>
 <p dir="auto">To make the code in <a href="#task-5">Task 5</a> self-propogating:</p>
 <h2 dir="auto"><a id="user-content-dom-approach" class="anchor" aria-hidden="true" href="#dom-approach"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>DOM Approach</h2>
